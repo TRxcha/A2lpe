@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Adoção Responsável</title>
+</head>
+<body>
+    <header>
+        <img src="../IMG/1 Acapra.jpg" width="200px" alt="Acapra">
+        <nav>
+            <a href="../index.html">Home</a> |
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+  <h1>Questionário de Adoção de Cães ou Gatos</h1>
+
+  <form action="/enviar-formulario" method="post">
+    <label>1. Qual animal você deseja adotar?</label><br>
+    <select name="animal" required>
+      <option value="">--Selecione--</option>
+      <option value="cao">Cão</option>
+      <option value="gato">Gato</option>
+    </select><br><br>
+
+    <label>2. Você mora em casa ou apartamento?</label><br>
+    <input type="text" name="moradia" required><br><br>
+
+    <label>3. Sua moradia possui espaço seguro para o animal?</label><br>
+    <select name="espaco_seguro" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br><br>
+
+    <label>4. Há telas de proteção em janelas e sacadas (em caso de gato)?</label><br>
+    <select name="telas_protecao" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+      <option value="nao_se_aplica">Não se aplica</option>
+    </select><br><br>
+
+    <label>5. Há crianças na residência?</label><br>
+    <select name="criancas" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br><br>
+
+    <label>6. Existem outros animais na residência?</label><br>
+    <select name="outros_animais" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br><br>
+
+    <label>7. Todos na residência estão de acordo com a adoção?</label><br>
+    <select name="todos_de_acordo" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br><br>
+
+    <label>8. Você possui condições financeiras para manter um animal (alimentação, veterinário, etc)?</label><br>
+    <select name="condicoes" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br><br>
+
+    <label>9. Você tem tempo disponível diariamente para cuidar do animal?</label><br>
+    <input type="text" name="tempo_disponivel" required><br><br>
+
+    <label>10. O que fará com o animal em caso de viagem ou imprevisto?</label><br>
+    <input type="text" name="viagem" required><br><br>
+
+    <label>11. Você pretende manter o animal vacinado e com acompanhamento veterinário?</label><br>
+    <select name="cuidados_veterinarios" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br><br>
+
+    <label>12. Você está ciente de que o animal pode viver de 10 a 20 anos?</label><br>
+    <select name="expectativa_vida" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br><br>
+
+    <label>13. Já teve outros animais antes?</label><br>
+    <select name="experiencia" required>
+      <option value="">--Selecione--</option>
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select><br><br>
+
+    <label>14. Se sim, o que aconteceu com eles?</label><br>
+    <input type="text" name="historia_animais"><br><br>
+
+    <label>15. Por que você quer adotar um animal?</label><br>
+    <textarea name="motivo_adocao" rows="4" cols="40" required></textarea><br><br>
+
+    <button type="submit">Enviar Questionário</button>
+  </form>
+
+  <footer id="contato">
+        <p><strong>ACAPRA - Associação de Cuidado e Adoção de Animais</strong></p>
+        <p>Telefone: (47) 99673-6046</p>
+        <p>Doe através do PIX: 03.772.251.0001-82</p>
+        <p>Endereço: R. Alba Dias Cunha, 15 - Trindade, Florianópolis - SC, 88036-020</p>
+        <p>
+            Redes sociais:
+            <a href="https://www.instagram.com/acaprabrusquesc/channel/" target="_blank">Instagram</a> |
+            <a href="https://www.facebook.com/acaprasaojoaquim/?locale=pt_BR" target="_blank">Facebook</a>
+        </p>
+        <p>&copy; 2025 ACAPRA. Todos os direitos reservados.</p>
+        <p>Developed by Leonardo, Pedro e Eduardo</p>
+    </footer>
+</body>
+</html>
