@@ -5,42 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <title>ACAPRA</title>
-
 </head>
 <body>
     <header>
-        <img src="IMG/1 Acapra.jpg" width="200px" alt="Acapra">
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="#contato">Contato</a>
+        <nav class="navbar">
+            <img src="IMG/1 Acapra.jpg" alt="Acapra" class="logo">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#contato">Contato</a>
+            </div>
         </nav>
     </header>
+
     <main>
-        <div>
+        <!-- Notícias -->
+        <section class="noticias">
             <h1>NOTÍCIAS</h1>
-            <img src="IMG/2 lojinha.jpg" width="500px" alt="Lojinha Acapra">
+            <img src="IMG/2 lojinha.jpg" alt="Lojinha Acapra" class="main-img">
+        </section>
+
+        <!-- Logo -->
+        <div class="logo-secundaria">
+            <img src="IMG/7 logo branca acapra.jpg" alt="Logo branca acapra">
         </div>
-        <img src="IMG/7 logo branca acapra.jpg" width="150px" alt="Logo branca acapra">
-        <div>
+
+        <!-- Opções -->
+        <section class="opcoes">
             <h1>OPÇÕES</h1>
-            <div>
-                <img src="IMG/3 informaçoes.jpg" width="200px" alt="Cachorro">
-                <a href="PAGES/informaçoes.html"><h2>INFORMAÇÕES</h2></a>
+            <div class="cards">
+                <div class="card">
+                    <img src="IMG/3 informaçoes.jpg" alt="Cachorro">
+                    <a href="PAGES/informaçoes.html"><h2>INFORMAÇÕES</h2></a>
+                </div>
+                <div class="card">
+                    <img src="IMG/4 quem somos.jpg" alt="Pata de cachorro">
+                    <a href="PAGES/quemsomos.html"><h2>QUEM SOMOS</h2></a>
+                </div>
+                <div class="card">
+                    <img src="IMG/5 caes.jpg" alt="Cachorro">
+                    <a href="PAGES/nossoscaes.html"><h2>NOSSOS CÃES</h2></a>
+                </div>
+                <div class="card">
+                    <img src="IMG/6 gatos.jpg" alt="Gato">
+                    <a href="PAGES/nossosgatos.html"><h2>NOSSOS GATOS</h2></a>
+                </div>
             </div>
-            <div>
-                <img src="IMG/4 quem somos.jpg" width="200px" alt="Pata de cachorro">
-                <a href="PAGES/quemsomos.html"><h2>QUEM SOMOS</h2></a>
-            </div>
-            <div>
-                <img src="IMG/5 caes.jpg" width="200px" alt="Cachorro">
-                <a href="PAGES/nossoscaes.html"><h2>NOSSOS CÃES</h2></a>
-            </div>
-            <div>
-                <img src="IMG/6 gatos.jpg" width="200px" alt="Gato">
-                <a href="PAGES/nossosgatos.html"><h2>NOSSOS GATOS</h2></a>
-            </div>
-        </div>
+        </section>
     </main>
+
     <footer id="contato">
         <p><strong>ACAPRA - Associação de Cuidado e Adoção de Animais</strong></p>
         <p>Telefone: (47) 99673-6046</p>
