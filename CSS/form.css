@@ -1,0 +1,101 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #6a0dad;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ddd;
+}
+
+/* Formulário */
+.form-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-container h1 {
+  text-align: center;
+  color: #423A92;
+  margin-bottom: 25px;
+}
+
+.adocao-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.adocao-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+.adocao-form input,
+.adocao-form select,
+.adocao-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.adocao-form button {
+  background-color: #423A92;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.adocao-form button:hover {
+  background-color: #520a9e;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #423A92;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer a {
+  color: #ffddff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
